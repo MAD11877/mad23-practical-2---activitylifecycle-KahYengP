@@ -8,11 +8,10 @@ import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
-    private boolean following = true;
+    private boolean following = false;
     private Button followButton;
     private Button messageButton;
 
-    private  TextView messageBox;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,10 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         messageButton = findViewById(R.id.message_button);
         followButton = findViewById(R.id.follow_button);
-        messageBox = findViewById(R.id.message_box);
 
         followButton.setOnClickListener(view -> {
-            if(following){
+            if(!following){
                 followButton.setText("Unfollow");
             }
             else {
@@ -34,9 +32,6 @@ public class MainActivity extends AppCompatActivity {
             following = !following;
         });
 
-        messageButton.setOnClickListener(view -> {
-            messageBox.setText("Message is sent!");
-        });
 
 
 

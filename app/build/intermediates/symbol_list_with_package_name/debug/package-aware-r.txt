@@ -2768,7 +2768,6 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id message
-id message_box
 id message_button
 id middle
 id mini
