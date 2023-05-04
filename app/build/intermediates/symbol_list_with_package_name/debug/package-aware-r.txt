@@ -2604,6 +2604,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button5
+id button6
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2709,6 +2711,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id header
 id header_title
 id hideable
 id home
@@ -2721,6 +2724,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageView
 id immediateStop
 id included
@@ -2938,7 +2942,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView3
 id textView5
 id text_input_end_icon
 id text_input_error_icon
@@ -3072,7 +3075,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_list
 layout activity_main
+layout activity_message_group
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

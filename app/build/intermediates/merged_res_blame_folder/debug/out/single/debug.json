@@ -20,6 +20,10 @@
         "source": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-merged_res-25:/layout_activity_list.xml.flat",
+        "source": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-main-27:/layout/activity_list.xml"
+    },
+    {
         "merged": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-merged_res-25:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-main-27:/mipmap-xhdpi/ic_launcher.webp"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-merged_res-25:/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-main-27:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "sg.edu.np.mad.madpractical.app-merged_res-25:/layout_activity_message_group.xml.flat",
+        "source": "sg.edu.np.mad.madpractical.app-main-27:/layout/activity_message_group.xml"
     },
     {
         "merged": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-merged_res-25:/mipmap-mdpi_ic_launcher.webp.flat",
@@ -70,9 +78,5 @@
     {
         "merged": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-merged_res-25:/layout_activity_main.xml.flat",
         "source": "/Users/sharon/.gradle/daemon/7.5/sg.edu.np.mad.madpractical.app-main-27:/layout/activity_main.xml"
-    },
-    {
-        "merged": "sg.edu.np.mad.madpractical.app-merged_res-25:/layout_activity_main.xml.flat",
-        "source": "sg.edu.np.mad.madpractical.app-main-27:/layout/activity_main.xml"
     }
 ]

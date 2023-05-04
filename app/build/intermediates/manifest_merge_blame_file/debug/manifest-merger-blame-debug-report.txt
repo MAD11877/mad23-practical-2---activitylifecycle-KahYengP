@@ -11,7 +11,7 @@
 9-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:5:5-22:19
+11-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:5:5-35:19
 12        android:allowBackup="true"
 12-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -32,44 +32,67 @@
 22        android:theme="@style/Theme.MADPractical" >
 22-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:12:9-50
 23        <activity
-23-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:14:9-21:20
-24            android:name="sg.edu.np.mad.madpractical.MainActivity"
+23-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:14:9-16:40
+24            android:name="sg.edu.np.mad.madpractical.MessageGroup"
 24-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:15:13-41
-25            android:exported="true" >
-25-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:16:13-36
-26            <intent-filter>
-26-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:17:13-20:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:18:17-69
-27-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:19:17-77
-29-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:19:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <provider
-33-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-34            android:name="androidx.startup.InitializationProvider"
-34-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-35            android:authorities="sg.edu.np.mad.madpractical.androidx-startup"
-35-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-36            android:exported="false" >
-36-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-37            <meta-data
-37-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharon/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharon/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharon/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-43        </provider>
-44    </application>
-45
-46</manifest>
+25            android:exported="false" />
+25-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:16:13-37
+26        <activity
+26-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:17:9-25:20
+27            android:name="sg.edu.np.mad.madpractical.ListActivity"
+27-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:18:13-41
+28            android:exported="true" >
+28-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:19:13-36
+29            <intent-filter>
+29-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:21:17-69
+30-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:23:17-77
+32-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:26:9-34:20
+36            android:name="sg.edu.np.mad.madpractical.MainActivity"
+36-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:27:13-41
+37            android:exported="true" >
+37-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:28:13-36
+38            <intent-filter>
+38-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:20:13-24:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:21:17-69
+39-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:21:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:23:17-77
+41-->/Users/sharon/Desktop/IT ngee ann/Year 2 sem 1/MAD/mad23-practical-2---activitylifecycle-KahYengP/app/src/main/AndroidManifest.xml:23:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+47            android:authorities="sg.edu.np.mad.madpractical.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/sharon/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharon/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharon/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharon/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>
